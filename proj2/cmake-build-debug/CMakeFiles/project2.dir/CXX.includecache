@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yen/CLionProjects/project2/Game.cpp
+Game.h
+/Users/yen/CLionProjects/project2/Game.h
+iostream
+-
+cstdlib
+-
+string
+-
+
+/Users/yen/CLionProjects/project2/Game.h
+fstream
+-
+Ship.h
+/Users/yen/CLionProjects/project2/Ship.h
+Pirate.h
+/Users/yen/CLionProjects/project2/Pirate.h
+
+/Users/yen/CLionProjects/project2/Pirate.h
+Ship.h
+/Users/yen/CLionProjects/project2/Ship.h
+iostream
+-
+string
+-
+cstdlib
+-
+iomanip
+-
+
+/Users/yen/CLionProjects/project2/Ship.h
+string
+-
+iostream
+-
+cstdlib
+-
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yen/CLionProjects/proj1/buffer.cpp
+buffer.h
+/Users/yen/CLionProjects/proj1/buffer.h
+
+/Users/yen/CLionProjects/proj1/buffer.h
+stdexcept
+-
+iostream
+-
+
+/Users/yen/CLionProjects/proj1/bufferlist.cpp
+bufferlist.h
+/Users/yen/CLionProjects/proj1/bufferlist.h
+
+/Users/yen/CLionProjects/proj1/bufferlist.h
+buffer.h
+/Users/yen/CLionProjects/proj1/buffer.h
+
+/Users/yen/CLionProjects/proj1/driver.cpp
+bufferlist.h
+/Users/yen/CLionProjects/proj1/bufferlist.h
+

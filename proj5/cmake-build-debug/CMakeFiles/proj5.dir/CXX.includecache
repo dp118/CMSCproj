@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yen/CLionProjects/proj5/Media.h
+iostream
+-
+string
+-
+
+/Users/yen/CLionProjects/proj5/MediaPlayer.cpp
+MediaPlayer.h
+/Users/yen/CLionProjects/proj5/MediaPlayer.h
+
+/Users/yen/CLionProjects/proj5/MediaPlayer.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+Media.h
+/Users/yen/CLionProjects/proj5/Media.h
+Tqueue.cpp
+/Users/yen/CLionProjects/proj5/Tqueue.cpp
+
+/Users/yen/CLionProjects/proj5/Tqueue.cpp
+iostream
+-
+cstdlib
+-
+string
+-
+

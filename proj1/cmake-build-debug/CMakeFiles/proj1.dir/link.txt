@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/proj1.dir/driver.cpp.o CMakeFiles/proj1.dir/buffer.cpp.o CMakeFiles/proj1.dir/bufferlist.cpp.o  -o proj1 

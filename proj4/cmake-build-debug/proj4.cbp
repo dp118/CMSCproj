@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="proj4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yen/CLionProjects/proj4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yen/CLionProjects/proj4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yen/CLionProjects/proj4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proj4">
+				<Option output="/Users/yen/CLionProjects/proj4/cmake-build-debug/proj4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yen/CLionProjects/proj4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proj4/fast">
+				<Option output="/Users/yen/CLionProjects/proj4/cmake-build-debug/proj4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yen/CLionProjects/proj4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yen/CLionProjects/proj4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Buckethead.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Chomper.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Engineer.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Entity.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Entity.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Game.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Game.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Imp.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Peashooter.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Plant.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Plants.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Room.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Room.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Sunflower.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Zombie.h">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/Zombies.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/main.cpp">
+			<Option target="proj4"/>
+		</Unit>
+		<Unit filename="/Users/yen/CLionProjects/proj4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
